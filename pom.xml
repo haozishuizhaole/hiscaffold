@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cc.chenzhihao.hi</groupId>
+        <artifactId>hi-framework</artifactId>
+        <version>1.0-RELEASE</version>
+    </parent>
+
+    <groupId>cc.chenzhihao</groupId>
+    <artifactId>hiscaffold</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>hiscaffold</name>
+    <description>hi-scaffold-archetype</description>
+
+    <properties>
+        <dir.base>${basedir}</dir.base>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <hi-framework.version>1.0-RELEASE</hi-framework.version>
+    </properties>
+
+    <modules>
+        <module>hiscaffold-domain</module>
+        <module>hiscaffold-interface</module>
+        <module>hiscaffold-common</module>
+        <module>hiscaffold-bootstrap</module>
+        <module>hiscaffold-face</module>
+        <module>hiscaffold-service</module>
+        <module>hiscaffold-infrastructure</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>cc.chenzhihao</groupId>
+                <artifactId>hiscaffold-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cc.chenzhihao</groupId>
+                <artifactId>hiscaffold-interface</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cc.chenzhihao</groupId>
+                <artifactId>hiscaffold-face</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cc.chenzhihao</groupId>
+                <artifactId>hiscaffold-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cc.chenzhihao</groupId>
+                <artifactId>hiscaffold-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cc.chenzhihao</groupId>
+                <artifactId>hiscaffold-infrastructure</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+</project>
