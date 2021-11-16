@@ -1,8 +1,10 @@
 # Hi-Scaffold
 
 DDD项目脚手架 Maven Archetype
+## 1、目录和文件结构
+[PROJECT_STRUCT.md](PROJECT_STRUCT.md)
 
-## 使用方式
+## 2、使用方式
 
 #### 第一步：生成Archetype
 
