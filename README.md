@@ -1,10 +1,19 @@
 # Hi-Scaffold
 
-DDD项目脚手架 Maven Archetype
-## 1、目录和文件结构
+基于领域驱动设计（DDD）思想的 Maven Archetype
+
+## 1、项目依赖
+
+- hi-framework：[click enter](https://github.com/haozishuizhaole/hi-framework)
+- Springboot
+
+## 2、目录和文件结构
+
 [PROJECT_STRUCT.md](PROJECT_STRUCT.md)
 
-## 2、使用方式
+## 3、使用方式
+
+Mybatis Archetype Plugin：[click enter](https://maven.apache.org/archetype/maven-archetype-plugin/index.html)
 
 #### 第一步：生成Archetype
 
