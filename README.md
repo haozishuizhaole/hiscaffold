@@ -73,7 +73,7 @@ Choose archetype:
 Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): : 1
 Define value for property 'groupId': com.foo
 Define value for property 'artifactId': bar
-Define value for property 'version' 1.0-SNAPSHOT: : 1.0
+Define value for property 'version' 1.0-RELEASE: : 1.0
 Define value for property 'package' com.foo: : com.foo.bar
 Confirm properties configuration:
 groupId: com.foo
@@ -82,7 +82,7 @@ version: 1.0
 package: com.foo.bar
  Y: : Y
 [INFO] ----------------------------------------------------------------------------
-[INFO] Using following parameters for creating project from Archetype: hiscaffold-archetype:1.0-SNAPSHOT
+[INFO] Using following parameters for creating project from Archetype: hiscaffold-archetype:1.0-RELEASE
 [INFO] ----------------------------------------------------------------------------
 [INFO] Parameter: groupId, Value: com.foo
 [INFO] Parameter: artifactId, Value: bar

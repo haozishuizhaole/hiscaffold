@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hiscaffold-service</artifactId>
+    <artifactId>hiscaffold-infrastructure-persistence</artifactId>
+    <description>基础设施-持久化层</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -17,20 +18,30 @@
     </properties>
 
     <dependencies>
-
-        <dependency>
-            <groupId>cc.chenzhihao</groupId>
-            <artifactId>hiscaffold-service-interface</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>cc.chenzhihao</groupId>
             <artifactId>hiscaffold-domain</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>cc.chenzhihao.hi</groupId>
-            <artifactId>hi-framework-spring</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
     </dependencies>
@@ -38,8 +49,8 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
+                <groupId>org.mybatis.generator</groupId>
+                <artifactId>mybatis-generator-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>

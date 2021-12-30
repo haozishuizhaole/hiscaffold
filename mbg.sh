@@ -2,7 +2,7 @@
 # Mybatis Generator 触发器
 
 # 执行Mybatis Generator的maven模块名称
-TARGET_MODULE="hiscaffold-infrastructure"
+TARGET_MODULE="hiscaffold-infrastructure-persistence"
 
 function input() {
   JDBC_HOST="127.0.0.1"

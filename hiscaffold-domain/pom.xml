@@ -6,7 +6,7 @@
     <parent>
         <groupId>cc.chenzhihao</groupId>
         <artifactId>hiscaffold</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0-RELEASE</version>
     </parent>
 
     <artifactId>hiscaffold-domain</artifactId>
@@ -17,8 +17,6 @@
             <groupId>cc.chenzhihao</groupId>
             <artifactId>hiscaffold-common</artifactId>
         </dependency>
-
     </dependencies>
-
 
 </project>

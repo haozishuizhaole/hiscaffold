@@ -66,8 +66,8 @@
 │                                   │   └── package-info.java
 │                                   └── vo // 值对象
 │                                       └── package-info.java
-├── hiscaffold-face // 门面层(表示层)模块
-│   ├── hiscaffold-face.iml
+├── hiscaffold-api-http // 门面层(表示层)模块
+│   ├── hiscaffold-api-http.iml
 │   ├── pom.xml
 │   └── src
 │       └── main
@@ -79,8 +79,8 @@
 │                               ├── http // HTTP接口表示
 │                               │   └── SystemController.java
 │                               └── package-info.java
-├── hiscaffold-infrastructure // 基础设施层模块
-│   ├── hiscaffold-infrastructure.iml
+├── hiscaffold-infrastructure-persistence // 基础设施层模块
+│   ├── hiscaffold-infrastructure-persistence.iml
 │   ├── libs // 用到的lib
 │   │   └── mbg // Mybatis Generator依赖的lib
 │   │       ├── generatorConfig.xml // Mybatis Generator 配置文件
@@ -110,8 +110,8 @@
 │           └── resources
 │               └── mybatis
 │                   └── mapper // mybatis xml
-├── hiscaffold-interface // 程序对外发布的二方包
-│   ├── hiscaffold-interface.iml
+├── hiscaffold-api // 程序对外发布的二方包
+│   ├── hiscaffold-api.iml
 │   ├── pom.xml
 │   └── src
 │       └── main
