@@ -9,13 +9,13 @@
         <version>1.0-RELEASE</version>
     </parent>
 
-    <artifactId>hiscaffold-domain</artifactId>
-    <name>hiscaffold-domain</name>
+    <artifactId>domain</artifactId>
+    <name>domain</name>
 
     <dependencies>
         <dependency>
             <groupId>cc.chenzhihao</groupId>
-            <artifactId>hiscaffold-common</artifactId>
+            <artifactId>common</artifactId>
         </dependency>
 
         <dependency>

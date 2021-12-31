@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hiscaffold-bootstrap</artifactId>
+    <artifactId>bootstrap</artifactId>
     <packaging>jar</packaging>
 
     <properties>
@@ -25,22 +25,22 @@
 
         <dependency>
             <groupId>cc.chenzhihao</groupId>
-            <artifactId>hiscaffold-api-http</artifactId>
+            <artifactId>api-http</artifactId>
         </dependency>
 
         <dependency>
             <groupId>cc.chenzhihao</groupId>
-            <artifactId>hiscaffold-service</artifactId>
+            <artifactId>service</artifactId>
         </dependency>
 
         <dependency>
             <groupId>cc.chenzhihao</groupId>
-            <artifactId>hiscaffold-infrastructure-repository</artifactId>
+            <artifactId>infrastructure-repository</artifactId>
         </dependency>
 
         <dependency>
             <groupId>cc.chenzhihao</groupId>
-            <artifactId>hiscaffold-infrastructure-external</artifactId>
+            <artifactId>infrastructure-external</artifactId>
         </dependency>
 
         <dependency>

@@ -7,8 +7,8 @@ build: clean
 	mvn compile
 
 # 运行
-run: build
-	mvn -pl hiscaffold-bootstrap spring-boot:run
+run: install
+	mvn -pl bootstrap spring-boot:run
 
 # 清除编译或打包产物
 clean:

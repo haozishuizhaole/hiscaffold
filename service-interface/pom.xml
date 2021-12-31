@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hiscaffold-service</artifactId>
+    <artifactId>service-interface</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -20,28 +20,9 @@
 
         <dependency>
             <groupId>cc.chenzhihao</groupId>
-            <artifactId>hiscaffold-service-interface</artifactId>
+            <artifactId>api</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>cc.chenzhihao</groupId>
-            <artifactId>hiscaffold-domain</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

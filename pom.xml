@@ -26,64 +26,64 @@
     </properties>
 
     <modules>
-        <module>hiscaffold-domain</module>
-        <module>hiscaffold-api</module>
-        <module>hiscaffold-common</module>
-        <module>hiscaffold-bootstrap</module>
-        <module>hiscaffold-api-http</module>
-        <module>hiscaffold-service</module>
-        <module>hiscaffold-infrastructure-repository</module>
-        <module>hiscaffold-service-interface</module>
-        <module>hiscaffold-infrastructure-external</module>
+        <module>domain</module>
+        <module>api</module>
+        <module>common</module>
+        <module>bootstrap</module>
+        <module>api-http</module>
+        <module>service</module>
+        <module>infrastructure-repository</module>
+        <module>service-interface</module>
+        <module>infrastructure-external</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>cc.chenzhihao</groupId>
-                <artifactId>hiscaffold-common</artifactId>
+                <artifactId>common</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>cc.chenzhihao</groupId>
-                <artifactId>hiscaffold-api</artifactId>
+                <artifactId>api</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>cc.chenzhihao</groupId>
-                <artifactId>hiscaffold-api-http</artifactId>
+                <artifactId>api-http</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>cc.chenzhihao</groupId>
-                <artifactId>hiscaffold-service-interface</artifactId>
+                <artifactId>service-interface</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>cc.chenzhihao</groupId>
-                <artifactId>hiscaffold-service</artifactId>
+                <artifactId>service</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>cc.chenzhihao</groupId>
-                <artifactId>hiscaffold-domain</artifactId>
+                <artifactId>domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>cc.chenzhihao</groupId>
-                <artifactId>hiscaffold-infrastructure-repository</artifactId>
+                <artifactId>infrastructure-repository</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>cc.chenzhihao</groupId>
-                <artifactId>hiscaffold-infrastructure-external</artifactId>
+                <artifactId>infrastructure-external</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
