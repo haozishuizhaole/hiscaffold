@@ -17,6 +17,11 @@
             <groupId>cc.chenzhihao</groupId>
             <artifactId>hiscaffold-common</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>cc.chenzhihao.hi</groupId>
+            <artifactId>hi-framework-core</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

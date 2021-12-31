@@ -29,10 +29,10 @@
         </dependency>
 
         <dependency>
-            <groupId>cc.chenzhihao.hi</groupId>
-            <artifactId>hi-framework-spring</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
-
+        
     </dependencies>
 
     <build>

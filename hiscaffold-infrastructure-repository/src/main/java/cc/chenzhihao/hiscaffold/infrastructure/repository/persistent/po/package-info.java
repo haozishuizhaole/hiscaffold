@@ -4,4 +4,4 @@
  * @author jacksonchenzhihao
  * @date 2021-11-12 12:08
  */
-package cc.chenzhihao.hiscaffold.infrastructure.persistent.po;
+package cc.chenzhihao.hiscaffold.infrastructure.repository.persistent.po;

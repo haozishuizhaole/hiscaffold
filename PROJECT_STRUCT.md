@@ -59,7 +59,7 @@
 │                                   │   └── package-info.java
 │                                   ├── factory // 工厂
 │                                   │   └── package-info.java
-│                                   ├── repository // 资源库（只提供接口）
+│                                   ├── infrastructure // 资源库（只提供接口）
 │                                   │   ├── SystemRepository.java
 │                                   │   └── package-info.java
 │                                   ├── service // 领域服务
@@ -79,8 +79,8 @@
 │                               ├── http // HTTP接口表示
 │                               │   └── SystemController.java
 │                               └── package-info.java
-├── hiscaffold-infrastructure-persistence // 基础设施层模块
-│   ├── hiscaffold-infrastructure-persistence.iml
+├── hiscaffold-infrastructure-repository // 基础设施层模块
+│   ├── hiscaffold-infrastructure-repository.iml
 │   ├── libs // 用到的lib
 │   │   └── mbg // Mybatis Generator依赖的lib
 │   │       ├── generatorConfig.xml // Mybatis Generator 配置文件
@@ -102,7 +102,7 @@
 │           │                   │   ├── package-info.java
 │           │                   │   └── po // 持久化对象（persistent object）
 │           │                   │       └── package-info.java
-│           │                   └── repository // 资源库实现
+│           │                   └── infrastructure // 资源库实现
 │           │                       ├── package-info.java
 │           │                       └── system // 系统资源库
 │           │                           ├── SystemMonitor.java

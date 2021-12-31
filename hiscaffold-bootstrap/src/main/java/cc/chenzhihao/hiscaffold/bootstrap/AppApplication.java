@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "cc.chenzhihao.hiscaffold")
-@MapperScan(basePackages = "cc.chenzhihao.hiscaffold.infrastructure.persistent.mapper")
+@MapperScan(basePackages = "cc.chenzhihao.hiscaffold.infrastructure.repository.persistent.mapper")
 @EnableSpringBeanContext
 public class AppApplication {
 

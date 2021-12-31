@@ -168,7 +168,7 @@ package: com.foo.bar
     │                                   │   └── package-info.java
     │                                   ├── factory
     │                                   │   └── package-info.java
-    │                                   ├── repository
+    │                                   ├── infrastructure
     │                                   │   ├── SystemRepository.java
     │                                   │   └── package-info.java
     │                                   ├── service
@@ -209,7 +209,7 @@ package: com.foo.bar
     │           │                   │   ├── package-info.java
     │           │                   │   └── po
     │           │                   │       └── package-info.java
-    │           │                   └── repository
+    │           │                   └── infrastructure
     │           │                       ├── package-info.java
     │           │                       └── system
     │           │                           ├── SystemMonitor.java

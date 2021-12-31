@@ -31,7 +31,7 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
-        <javaModelGenerator targetPackage="cc.chenzhihao.hiscaffold.infrastructure.persistent.po"
+        <javaModelGenerator targetPackage="cc.chenzhihao.hiscaffold.infrastructure.repository.persistent.po"
                             targetProject="${dir.base}/src/main/java">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
@@ -41,7 +41,8 @@
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
-        <javaClientGenerator type="XMLMAPPER" targetPackage="cc.chenzhihao.hiscaffold.infrastructure.persistent.mapper"
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="cc.chenzhihao.hiscaffold.infrastructure.repository.persistent.mapper"
                              targetProject="${dir.base}/src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
