@@ -2,14 +2,14 @@
 # Mybatis Generator 触发器
 
 # 执行Mybatis Generator的maven模块名称
-TARGET_MODULE="hiscaffold-infrastructure"
+TARGET_MODULE="infrastructure-repository"
 
 function input() {
   JDBC_HOST="127.0.0.1"
   JDBC_POST="3306"
   JDBC_DATABASE="hiscaffold"
   JDBC_USERNAME="root"
-  JDBC_PASSWORD="1234"
+  JDBC_PASSWORD="123456"
 
   read -p "input jdbc.host[default:$JDBC_HOST]:" INPUT_JDBC_HOST
   read -p "input jdbc.port[default:$JDBC_POST]:" INPUT_JDBC_POST

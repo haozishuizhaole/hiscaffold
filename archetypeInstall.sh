@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-cd ./target/generated-sources/archetype
+sh archetypeGenerate.sh
+cd ./target/generated-sources/archetype || exit
 mvn install -DskipTests=true
