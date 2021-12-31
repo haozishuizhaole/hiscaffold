@@ -24,22 +24,22 @@
         </dependency>
 
         <dependency>
-            <groupId>cc.chenzhihao</groupId>
+            <groupId>${groupId}</groupId>
             <artifactId>api-http</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>cc.chenzhihao</groupId>
+            <groupId>${groupId}</groupId>
             <artifactId>service</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>cc.chenzhihao</groupId>
+            <groupId>${groupId}</groupId>
             <artifactId>infrastructure-repository</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>cc.chenzhihao</groupId>
+            <groupId>${groupId}</groupId>
             <artifactId>infrastructure-external</artifactId>
         </dependency>
 

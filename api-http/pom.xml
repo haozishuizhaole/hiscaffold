@@ -23,7 +23,7 @@
         </dependency>
 
         <dependency>
-            <groupId>cc.chenzhihao</groupId>
+            <groupId>${groupId}</groupId>
             <artifactId>service-interface</artifactId>
         </dependency>
     </dependencies>

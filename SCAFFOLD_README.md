@@ -40,7 +40,7 @@ sh archetypeInstall.sh
 切换至要生成新工程目录的父目录（eg：/data/projects ）执行以下命令，使用本地archetype
 
 ```shell
- mvn archetype:generate -DarchetypeCatalog=local
+mvn archetype:generate -DarchetypeCatalog=local -DarchetypeGroupId=cc.chenzhihao -DarchetypeArtifactId=hiscaffold-archetype -DarchetypeVersion=2.0-RELEASE
 ```
 
 执行该命令后，会显示本地已经安装的archetype列表

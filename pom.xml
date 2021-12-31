@@ -40,49 +40,49 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>cc.chenzhihao</groupId>
+                <groupId>${groupId}</groupId>
                 <artifactId>common</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>cc.chenzhihao</groupId>
+                <groupId>${groupId}</groupId>
                 <artifactId>api</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>cc.chenzhihao</groupId>
+                <groupId>${groupId}</groupId>
                 <artifactId>api-http</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>cc.chenzhihao</groupId>
+                <groupId>${groupId}</groupId>
                 <artifactId>service-interface</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>cc.chenzhihao</groupId>
+                <groupId>${groupId}</groupId>
                 <artifactId>service</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>cc.chenzhihao</groupId>
+                <groupId>${groupId}</groupId>
                 <artifactId>domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>cc.chenzhihao</groupId>
+                <groupId>${groupId}</groupId>
                 <artifactId>infrastructure-repository</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>cc.chenzhihao</groupId>
+                <groupId>${groupId}</groupId>
                 <artifactId>infrastructure-external</artifactId>
                 <version>${project.version}</version>
             </dependency>

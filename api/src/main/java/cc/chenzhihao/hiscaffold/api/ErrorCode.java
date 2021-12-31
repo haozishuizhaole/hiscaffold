@@ -16,20 +16,19 @@ public enum ErrorCode implements ResultEnum {
     FAILED(1, "operation failed"),
     ;
 
-    ErrorCode(int code, String msg) {
-        this.code = code;
-        this.msg = msg;
-    }
-
     /**
      * 错误码
      */
     private final int code;
-
     /**
      * 错误描述
      */
     private final String msg;
+
+    ErrorCode(int code, String msg) {
+        this.code = code;
+        this.msg = msg;
+    }
 
     @Override
     public int getCode() {

@@ -19,7 +19,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>cc.chenzhihao</groupId>
+            <groupId>${groupId}</groupId>
             <artifactId>api</artifactId>
         </dependency>
 
